@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a7b-yT-UWJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="P5D-Jc-HVa">
+            <objects>
+                <navigationController id="a7b-yT-UWJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VJ6-1P-PtW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="t4k-iA-EoN" kind="relationship" relationship="rootViewController" id="ZUA-qf-0On"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7v-NO-SBN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-714" y="170"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hYG-hb-0P5">
+            <objects>
+                <viewController id="t4k-iA-EoN" customClass="ViewController" customModule="键盘弹出" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QGr-gz-WQF"/>
+                        <viewControllerLayoutGuide type="bottom" id="i4b-P2-cvn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sdA-Yo-HXa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TXg-DK-htG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y2N-yg-Pdf">
+                                        <rect key="frame" x="137.5" y="397" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="cRm-gx-ZQX"/>
+                                            <constraint firstAttribute="width" constant="100" id="jwq-bt-kdy"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IRo-6i-SeG">
+                                        <rect key="frame" x="137.5" y="437" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="shd-tG-m9k"/>
+                                            <constraint firstAttribute="height" constant="30" id="ynh-wy-VMy"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVZ-JH-DZv">
+                                        <rect key="frame" x="137" y="477" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Wtq-T7-cyx"/>
+                                            <constraint firstAttribute="width" constant="100" id="we0-UJ-d8I"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KVZ-JH-DZv" firstAttribute="centerX" secondItem="TXg-DK-htG" secondAttribute="centerX" id="0qQ-1v-xR7"/>
+                                    <constraint firstItem="KVZ-JH-DZv" firstAttribute="top" secondItem="IRo-6i-SeG" secondAttribute="bottom" constant="10" id="Kb6-QT-xID"/>
+                                    <constraint firstItem="IRo-6i-SeG" firstAttribute="top" secondItem="Y2N-yg-Pdf" secondAttribute="bottom" constant="10" id="f3h-pp-eJf"/>
+                                    <constraint firstItem="IRo-6i-SeG" firstAttribute="centerX" secondItem="TXg-DK-htG" secondAttribute="centerX" id="gFM-SA-jmT"/>
+                                    <constraint firstItem="Y2N-yg-Pdf" firstAttribute="centerX" secondItem="TXg-DK-htG" secondAttribute="centerX" id="mrd-aC-WWU"/>
+                                    <constraint firstAttribute="bottom" secondItem="KVZ-JH-DZv" secondAttribute="bottom" constant="160" id="pSb-QR-IAu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TXg-DK-htG" firstAttribute="leading" secondItem="sdA-Yo-HXa" secondAttribute="leading" id="IcT-7X-9Un"/>
+                            <constraint firstItem="TXg-DK-htG" firstAttribute="top" secondItem="sdA-Yo-HXa" secondAttribute="top" id="aeV-rU-92s"/>
+                            <constraint firstAttribute="trailing" secondItem="TXg-DK-htG" secondAttribute="trailing" id="fhW-Fe-zpf"/>
+                            <constraint firstItem="i4b-P2-cvn" firstAttribute="top" secondItem="TXg-DK-htG" secondAttribute="bottom" id="iYd-u5-f65"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YSs-TB-1ai"/>
+                    <connections>
+                        <outlet property="button" destination="KVZ-JH-DZv" id="2yc-AB-zA1"/>
+                        <outlet property="u1" destination="Y2N-yg-Pdf" id="Vxi-aA-esS"/>
+                        <outlet property="u2" destination="IRo-6i-SeG" id="iHP-7F-gPh"/>
+                        <outlet property="v" destination="TXg-DK-htG" id="qSQ-JD-2av"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQN-nb-7ws" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="170"/>
+        </scene>
+    </scenes>
+</document>

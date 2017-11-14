@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67FA9491FBADFC700837D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67FA9481FBADFC700837D70 /* AppDelegate.swift */; };
+		A67FA94B1FBADFC700837D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67FA94A1FBADFC700837D70 /* ViewController.swift */; };
+		A67FA94E1FBADFC700837D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67FA94C1FBADFC700837D70 /* Main.storyboard */; };
+		A67FA9501FBADFC700837D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67FA94F1FBADFC700837D70 /* Assets.xcassets */; };
+		A67FA9531FBADFC700837D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67FA9511FBADFC700837D70 /* LaunchScreen.storyboard */; };
+		A67FA95E1FBADFC700837D70 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67FA95D1FBADFC700837D70 /* ____Tests.swift */; };
+		A67FA9691FBADFC700837D70 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67FA9681FBADFC700837D70 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67FA95A1FBADFC700837D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67FA93D1FBADFC700837D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67FA9441FBADFC700837D70;
+			remoteInfo = "键盘弹出";
+		};
+		A67FA9651FBADFC700837D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67FA93D1FBADFC700837D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67FA9441FBADFC700837D70;
+			remoteInfo = "键盘弹出";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A67FA9451FBADFC700837D70 /* 键盘弹出.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘弹出.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67FA9481FBADFC700837D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67FA94A1FBADFC700837D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A67FA94D1FBADFC700837D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A67FA94F1FBADFC700837D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A67FA9521FBADFC700837D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A67FA9541FBADFC700837D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67FA9591FBADFC700837D70 /* 键盘弹出Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘弹出Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67FA95D1FBADFC700837D70 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		A67FA95F1FBADFC700837D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67FA9641FBADFC700837D70 /* 键盘弹出UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘弹出UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67FA9681FBADFC700837D70 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		A67FA96A1FBADFC700837D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67FA9421FBADFC700837D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9561FBADFC700837D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9611FBADFC700837D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67FA93C1FBADFC700837D70 = {
+			isa = PBXGroup;
+			children = (
+				A67FA9471FBADFC700837D70 /* 键盘弹出 */,
+				A67FA95C1FBADFC700837D70 /* 键盘弹出Tests */,
+				A67FA9671FBADFC700837D70 /* 键盘弹出UITests */,
+				A67FA9461FBADFC700837D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67FA9461FBADFC700837D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67FA9451FBADFC700837D70 /* 键盘弹出.app */,
+				A67FA9591FBADFC700837D70 /* 键盘弹出Tests.xctest */,
+				A67FA9641FBADFC700837D70 /* 键盘弹出UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67FA9471FBADFC700837D70 /* 键盘弹出 */ = {
+			isa = PBXGroup;
+			children = (
+				A67FA9481FBADFC700837D70 /* AppDelegate.swift */,
+				A67FA94A1FBADFC700837D70 /* ViewController.swift */,
+				A67FA94C1FBADFC700837D70 /* Main.storyboard */,
+				A67FA94F1FBADFC700837D70 /* Assets.xcassets */,
+				A67FA9511FBADFC700837D70 /* LaunchScreen.storyboard */,
+				A67FA9541FBADFC700837D70 /* Info.plist */,
+			);
+			path = "键盘弹出";
+			sourceTree = "<group>";
+		};
+		A67FA95C1FBADFC700837D70 /* 键盘弹出Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A67FA95D1FBADFC700837D70 /* ____Tests.swift */,
+				A67FA95F1FBADFC700837D70 /* Info.plist */,
+			);
+			path = "键盘弹出Tests";
+			sourceTree = "<group>";
+		};
+		A67FA9671FBADFC700837D70 /* 键盘弹出UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A67FA9681FBADFC700837D70 /* ____UITests.swift */,
+				A67FA96A1FBADFC700837D70 /* Info.plist */,
+			);
+			path = "键盘弹出UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67FA9441FBADFC700837D70 /* 键盘弹出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67FA96D1FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出" */;
+			buildPhases = (
+				A67FA9411FBADFC700837D70 /* Sources */,
+				A67FA9421FBADFC700837D70 /* Frameworks */,
+				A67FA9431FBADFC700837D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘弹出";
+			productName = "键盘弹出";
+			productReference = A67FA9451FBADFC700837D70 /* 键盘弹出.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67FA9581FBADFC700837D70 /* 键盘弹出Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67FA9701FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出Tests" */;
+			buildPhases = (
+				A67FA9551FBADFC700837D70 /* Sources */,
+				A67FA9561FBADFC700837D70 /* Frameworks */,
+				A67FA9571FBADFC700837D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67FA95B1FBADFC700837D70 /* PBXTargetDependency */,
+			);
+			name = "键盘弹出Tests";
+			productName = "键盘弹出Tests";
+			productReference = A67FA9591FBADFC700837D70 /* 键盘弹出Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A67FA9631FBADFC700837D70 /* 键盘弹出UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67FA9731FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出UITests" */;
+			buildPhases = (
+				A67FA9601FBADFC700837D70 /* Sources */,
+				A67FA9611FBADFC700837D70 /* Frameworks */,
+				A67FA9621FBADFC700837D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67FA9661FBADFC700837D70 /* PBXTargetDependency */,
+			);
+			name = "键盘弹出UITests";
+			productName = "键盘弹出UITests";
+			productReference = A67FA9641FBADFC700837D70 /* 键盘弹出UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67FA93D1FBADFC700837D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yihui;
+				TargetAttributes = {
+					A67FA9441FBADFC700837D70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A67FA9581FBADFC700837D70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A67FA9441FBADFC700837D70;
+					};
+					A67FA9631FBADFC700837D70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A67FA9441FBADFC700837D70;
+					};
+				};
+			};
+			buildConfigurationList = A67FA9401FBADFC700837D70 /* Build configuration list for PBXProject "键盘弹出" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67FA93C1FBADFC700837D70;
+			productRefGroup = A67FA9461FBADFC700837D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67FA9441FBADFC700837D70 /* 键盘弹出 */,
+				A67FA9581FBADFC700837D70 /* 键盘弹出Tests */,
+				A67FA9631FBADFC700837D70 /* 键盘弹出UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67FA9431FBADFC700837D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67FA9531FBADFC700837D70 /* LaunchScreen.storyboard in Resources */,
+				A67FA9501FBADFC700837D70 /* Assets.xcassets in Resources */,
+				A67FA94E1FBADFC700837D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9571FBADFC700837D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9621FBADFC700837D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67FA9411FBADFC700837D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67FA94B1FBADFC700837D70 /* ViewController.swift in Sources */,
+				A67FA9491FBADFC700837D70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9551FBADFC700837D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67FA95E1FBADFC700837D70 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FA9601FBADFC700837D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67FA9691FBADFC700837D70 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67FA95B1FBADFC700837D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67FA9441FBADFC700837D70 /* 键盘弹出 */;
+			targetProxy = A67FA95A1FBADFC700837D70 /* PBXContainerItemProxy */;
+		};
+		A67FA9661FBADFC700837D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67FA9441FBADFC700837D70 /* 键盘弹出 */;
+			targetProxy = A67FA9651FBADFC700837D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A67FA94C1FBADFC700837D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67FA94D1FBADFC700837D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A67FA9511FBADFC700837D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67FA9521FBADFC700837D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67FA96B1FBADFC700837D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67FA96C1FBADFC700837D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67FA96E1FBADFC700837D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘弹出/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A67FA96F1FBADFC700837D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘弹出/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A67FA9711FBADFC700837D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘弹出Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘弹出.app/键盘弹出";
+			};
+			name = Debug;
+		};
+		A67FA9721FBADFC700837D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘弹出Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘弹出.app/键盘弹出";
+			};
+			name = Release;
+		};
+		A67FA9741FBADFC700837D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "键盘弹出UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "键盘弹出";
+			};
+			name = Debug;
+		};
+		A67FA9751FBADFC700837D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "键盘弹出UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "键盘弹出";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67FA9401FBADFC700837D70 /* Build configuration list for PBXProject "键盘弹出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67FA96B1FBADFC700837D70 /* Debug */,
+				A67FA96C1FBADFC700837D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67FA96D1FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67FA96E1FBADFC700837D70 /* Debug */,
+				A67FA96F1FBADFC700837D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A67FA9701FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67FA9711FBADFC700837D70 /* Debug */,
+				A67FA9721FBADFC700837D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A67FA9731FBADFC700837D70 /* Build configuration list for PBXNativeTarget "键盘弹出UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67FA9741FBADFC700837D70 /* Debug */,
+				A67FA9751FBADFC700837D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67FA93D1FBADFC700837D70 /* Project object */;
+}
